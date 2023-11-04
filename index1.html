@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Application Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index1.css" />
+    
+    <script>
+        function review(){
+            alert("Your transaction is being reviewed. Wait for confirmation");
+            return false;
+        }
+    </script>
+</head>
+
+<body>
+<div>
+    <form method="POST" onsubmit="return review();">
+        <label>Complete Transaction to register for your application form: </label>
+        <br>
+        Procedure:
+        <ol>
+            <li>Go to M-Pesa</li>
+            <li>Lipa Na M-Pesa</li>
+            <li>Paybill BSN No:222111 Acc: 054000009903</li>
+        </ol>
+
+        Confirm your transaction <span>(Transaction code)</span> below:
+        <br>
+        <input type="text" name="txt" id="txt" required minlength="10"/>
+
+        <input type="submit" value="COMPLETE"/>
+    </form>
+</div>
+    
+</body>
+
+</html>

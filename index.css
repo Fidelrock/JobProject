@@ -1,0 +1,76 @@
+body{
+    margin: auto auto;
+    font-family: sans-serif, serif;
+    background-color:#ffc400;
+    overflow:-moz-hidden-unscrollable ;
+}
+img{
+    border-radius: 20px;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    margin: 5px;
+left: 0px;
+}
+#jobsbtn{
+    background-color:#4CAF50; 
+    color: white;
+    width:100px;
+    height:50px;
+    position: fixed;
+    right: 0px;
+    margin-right: 20px;
+   margin-top: 20px;
+   border-radius: 10px;
+   font-size: medium;
+   font-weight: 30px;
+
+}
+/***#navbar,header{
+    overflow: hidden;
+    background-color:red;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    height:fit-content
+}***/
+
+#welcome{
+    height: 500px;
+    background-color: orange;
+    margin-top:0px;
+   
+}
+#welcome h2{
+    /*margin-top: 100px;*/
+    position: fixed;
+    top:250px;
+    left:500px;
+    font-style: normal;
+}
+#jumiaBlack{
+    height: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+
+}
+#jumiaBlack button{
+    border-radius: 10px;
+    height: 100px;
+    width: 150px;
+}
+footer{
+    height: fit-content;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+#jobsbtn:hover,#applybtn:hover{
+    background-color:#4df6ff ;
+    transition: .5s ease-in-out;
+    
+}
